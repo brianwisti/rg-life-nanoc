@@ -1,0 +1,19 @@
+<section class="summary">
+  <header>
+    <%= link_to item[:title], item %>
+  </header>
+  <% if item[:id] =~ %r{ ^ Log / \d }x %>
+    <section>
+    <%= item.compiled_content %>
+    </section>
+  <% end %>
+  <footer>
+    <dl>
+      <dt>ID</dt><dd><%= item[:id] %></dd>
+      <dt>Added</dt>
+      <dd><%= item[:created_at] %></dd>
+      <dt>Updated</dt>
+      <dd><%= item[:updated_at] %></dd>
+    </dl>
+  </footer>
+</section>

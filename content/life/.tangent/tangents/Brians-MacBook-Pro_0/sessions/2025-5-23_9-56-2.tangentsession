@@ -1,0 +1,232 @@
+{
+	"threadHistory": [
+		{
+			"thread": [
+				"FILES/Log/2025-05-23 Fri 0956.md"
+			],
+			"currentNode": "FILES/Log/2025-05-23 Fri 0956.md"
+		},
+		{
+			"thread": [
+				"FILES/index.md"
+			],
+			"currentNode": "FILES/index.md"
+		},
+		{
+			"thread": [
+				"FILES/Log.md"
+			],
+			"currentNode": "FILES/Log.md"
+		},
+		{
+			"thread": [
+				"FILES/Colophon.md"
+			],
+			"currentNode": "FILES/Colophon.md"
+		},
+		{
+			"thread": [
+				"FILES/Hello.md"
+			],
+			"currentNode": "FILES/Hello.md"
+		},
+		{
+			"thread": [
+				"#/SLASH"
+			],
+			"currentNode": "#/SLASH"
+		},
+		{
+			"thread": [
+				"FILES/Follow.md"
+			],
+			"currentNode": "FILES/Follow.md"
+		},
+		{
+			"thread": [
+				"FILES/Log/2025-05-23 Fri 0956.md"
+			],
+			"currentNode": "FILES/Log/2025-05-23 Fri 0956.md"
+		},
+		{
+			"thread": [
+				"FILES/Log/2025-05-21 Wed 0847.md"
+			],
+			"currentNode": "FILES/Log/2025-05-21 Wed 0847.md"
+		},
+		{
+			"thread": [
+				"FILES/Log/2025-05-21 Wed 0847.md",
+				"FILES/Log/New Note.md"
+			],
+			"currentNode": "FILES/Log/New Note.md"
+		},
+		{
+			"thread": [
+				"FILES/Log/2025-05-21 Wed 0847.md"
+			],
+			"currentNode": "FILES/Log/2025-05-21 Wed 0847.md"
+		},
+		{
+			"thread": [
+				"FILES/log/2025-05-23 Fri 1326.md"
+			],
+			"currentNode": "FILES/log/2025-05-23 Fri 1326.md"
+		},
+		{
+			"thread": [
+				"FILES/Log/2025-05-21 Wed 0847.md"
+			],
+			"currentNode": "FILES/Log/2025-05-21 Wed 0847.md"
+		},
+		{
+			"thread": [],
+			"currentNode": null
+		},
+		{
+			"thread": [
+				"FILES/Log/2025-05-21 Wed 1107.md"
+			],
+			"currentNode": "FILES/Log/2025-05-21 Wed 1107.md"
+		},
+		{
+			"thread": [],
+			"currentNode": null
+		},
+		{
+			"thread": [
+				"FILES/Log/2025-05-22 Thu 1007.md"
+			],
+			"currentNode": "FILES/Log/2025-05-22 Thu 1007.md"
+		},
+		{
+			"thread": [
+				"FILES/Log/2025-05-23 Fri 1326.md"
+			],
+			"currentNode": "FILES/Log/2025-05-23 Fri 1326.md"
+		},
+		{
+			"thread": [
+				"FILES/log/2025-05-23 Fri 1534.md"
+			],
+			"currentNode": "FILES/log/2025-05-23 Fri 1534.md"
+		},
+		{
+			"thread": [
+				"FILES/Log/2025-05-22 Thu 1007.md"
+			],
+			"currentNode": "FILES/Log/2025-05-22 Thu 1007.md"
+		},
+		{
+			"thread": [],
+			"currentNode": null
+		},
+		{
+			"thread": [
+				"FILES/Log/2025-05-23 Fri 0956.md"
+			],
+			"currentNode": "FILES/Log/2025-05-23 Fri 0956.md"
+		},
+		{
+			"thread": [],
+			"currentNode": null
+		},
+		{
+			"thread": [
+				"FILES/Log/2025-05-23 Fri 1534.md"
+			],
+			"currentNode": "FILES/Log/2025-05-23 Fri 1534.md"
+		},
+		{
+			"thread": [
+				"FILES/Colophon.md"
+			],
+			"currentNode": "FILES/Colophon.md"
+		},
+		{
+			"thread": [
+				"FILES/Log/2025-05-23 Fri 1534.md"
+			],
+			"currentNode": "FILES/Log/2025-05-23 Fri 1534.md"
+		},
+		{
+			"thread": [],
+			"currentNode": null
+		},
+		{
+			"thread": [
+				"FILES/Log/2025-05-23 Fri 1326.md"
+			],
+			"currentNode": "FILES/Log/2025-05-23 Fri 1326.md"
+		}
+	],
+	"threadIndex": 27,
+	"previousSession": "FILES/.tangent/tangents/Brians-MacBook-Pro_0/sessions/2025-5-22_9-32-11.tangentsession",
+	"map": {
+		"nodes": {
+			"FILES/index.md": {
+				"node": "FILES/index.md",
+				"isRoot": true,
+				"strength": 2,
+				"dateCreated": "2025-05-23T17:13:24.325Z"
+			},
+			"FILES/Log.md": {
+				"node": "FILES/Log.md",
+				"isRoot": true,
+				"strength": 2,
+				"dateCreated": "2025-05-23T17:27:34.028Z"
+			},
+			"FILES/Colophon.md": {
+				"node": "FILES/Colophon.md",
+				"isRoot": true,
+				"strength": 2,
+				"dateCreated": "2025-05-23T18:27:07.471Z"
+			},
+			"FILES/Hello.md": {
+				"node": "FILES/Hello.md",
+				"isRoot": true,
+				"strength": 3,
+				"dateCreated": "2025-05-23T19:48:15.143Z"
+			},
+			"#/SLASH": {
+				"node": "#/SLASH",
+				"isRoot": false,
+				"strength": 2,
+				"dateCreated": "2025-05-23T20:11:18.752Z"
+			},
+			"FILES/Follow.md": {
+				"node": "FILES/Follow.md",
+				"isRoot": false,
+				"strength": 3,
+				"dateCreated": "2025-05-23T20:11:36.956Z"
+			},
+			"FILES/log/2025-05-23 Fri 1326.md": {
+				"node": "FILES/log/2025-05-23 Fri 1326.md",
+				"isRoot": false,
+				"strength": 2,
+				"dateCreated": "2025-05-23T20:26:50.661Z"
+			},
+			"FILES/Log/2025-05-23 Fri 1326.md": {
+				"node": "FILES/Log/2025-05-23 Fri 1326.md",
+				"isRoot": false,
+				"strength": 2,
+				"dateCreated": "2025-05-23T22:34:19.132Z"
+			},
+			"FILES/log/2025-05-23 Fri 1534.md": {
+				"node": "FILES/log/2025-05-23 Fri 1534.md",
+				"isRoot": false,
+				"strength": 2,
+				"dateCreated": "2025-05-23T22:34:31.437Z"
+			}
+		},
+		"connections": [
+			{
+				"from": "FILES/Follow.md",
+				"to": "FILES/Hello.md",
+				"strength": 1,
+				"dateCreated": "2025-05-23T20:13:12.732Z"
+			}
+		]
+	},
+	"version": 1
+}

@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <%= render '/_head.*' %>
+  <body>
+    <%= render '/_site_header.*' %>
+    <main>
+      <%= yield %>
+      <section>
+        <% sorted_articles.each do |item| %>
+          <%= render '/_summary.*', item: item %>
+        <% end %>
+      </section>
+      <footer>
+        <%= render '/_page_meta.*' %>
+      </footer>
+    </main>
+    <%= render '/_site_footer.*' %>
+  </body>
+</html>

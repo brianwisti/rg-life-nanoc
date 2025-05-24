@@ -1,0 +1,229 @@
+{
+	"threadHistory": [
+		{
+			"thread": [
+				"FILES/Log"
+			],
+			"currentNode": "FILES/Log"
+		},
+		{
+			"thread": [
+				"FILES/Log",
+				"FILES/log/2025-05-21 Wed 0845.md"
+			],
+			"currentNode": "FILES/log/2025-05-21 Wed 0845.md"
+		},
+		{
+			"thread": [
+				"FILES/Log"
+			],
+			"currentNode": "FILES/Log"
+		},
+		{
+			"thread": [
+				"FILES/Log",
+				"FILES/log/2025-05-21 Wed 08/45.md"
+			],
+			"currentNode": "FILES/log/2025-05-21 Wed 08/45.md"
+		},
+		{
+			"thread": [
+				"FILES/Log",
+				"FILES/log/2025-05-21 Wed 08/45.md"
+			],
+			"currentNode": "FILES/Log"
+		},
+		{
+			"thread": [
+				"FILES/Log",
+				"FILES/log/2025-05-21 Wed 08/45.md"
+			],
+			"currentNode": "FILES/log/2025-05-21 Wed 08/45.md"
+		},
+		{
+			"thread": [
+				"FILES/Log",
+				"FILES/log/2025-05-21 Wed 08/45.md"
+			],
+			"currentNode": "FILES/Log"
+		},
+		{
+			"thread": [
+				"FILES/Log",
+				"FILES/Log/2025-05-21 Wed 0847.md"
+			],
+			"currentNode": "FILES/Log/2025-05-21 Wed 0847.md"
+		},
+		{
+			"thread": [
+				"FILES/Log"
+			],
+			"currentNode": "FILES/Log"
+		},
+		{
+			"thread": [
+				"FILES/Log.md"
+			],
+			"currentNode": "FILES/Log.md"
+		},
+		{
+			"thread": [
+				"FILES/index.md"
+			],
+			"currentNode": "FILES/index.md"
+		},
+		{
+			"thread": [
+				"FILES/Log.md"
+			],
+			"currentNode": "FILES/Log.md"
+		},
+		{
+			"thread": [
+				"FILES/Log/2025-05-21 Wed 0847.md"
+			],
+			"currentNode": "FILES/Log/2025-05-21 Wed 0847.md"
+		},
+		{
+			"thread": [
+				"FILES/Colophon.md"
+			],
+			"currentNode": "FILES/Colophon.md"
+		},
+		{
+			"thread": [
+				"FILES/Log/2025-05-21 Wed 0847.md"
+			],
+			"currentNode": "FILES/Log/2025-05-21 Wed 0847.md"
+		},
+		{
+			"thread": [
+				"FILES/Colophon.md"
+			],
+			"currentNode": "FILES/Colophon.md"
+		},
+		{
+			"thread": [
+				"FILES/Log.md"
+			],
+			"currentNode": "FILES/Log.md"
+		},
+		{
+			"thread": [
+				"FILES/Colophon.md"
+			],
+			"currentNode": "FILES/Colophon.md"
+		},
+		{
+			"thread": [
+				"FILES/Log.md"
+			],
+			"currentNode": "FILES/Log.md"
+		},
+		{
+			"thread": [
+				"FILES/Log/2025-05-21 Wed 0847.md"
+			],
+			"currentNode": "FILES/Log/2025-05-21 Wed 0847.md"
+		},
+		{
+			"thread": [
+				"FILES/Log/2025-05-21 Wed 1107.md"
+			],
+			"currentNode": "FILES/Log/2025-05-21 Wed 1107.md"
+		},
+		{
+			"thread": [
+				"FILES/Log/2025-05-21 Wed 1107.md",
+				"FILES/index.md"
+			],
+			"currentNode": "FILES/index.md"
+		},
+		{
+			"thread": [
+				"FILES/Log/2025-05-21 Wed 1107.md"
+			],
+			"currentNode": "FILES/Log/2025-05-21 Wed 1107.md"
+		},
+		{
+			"thread": [
+				"FILES/Log.md"
+			],
+			"currentNode": "FILES/Log.md"
+		},
+		{
+			"thread": [
+				"FILES/index.md"
+			],
+			"currentNode": "FILES/index.md"
+		},
+		{
+			"thread": [
+				"FILES/Log/2025-05-21 Wed 0847.md"
+			],
+			"currentNode": "FILES/Log/2025-05-21 Wed 0847.md"
+		},
+		{
+			"thread": [
+				"FILES/Log/2025-05-21 Wed 1107.md"
+			],
+			"currentNode": "FILES/Log/2025-05-21 Wed 1107.md"
+		},
+		{
+			"thread": [
+				"FILES/index.md"
+			],
+			"currentNode": "FILES/index.md"
+		},
+		{
+			"thread": [
+				"FILES/Log.md"
+			],
+			"currentNode": "FILES/Log.md"
+		},
+		{
+			"thread": [
+				"FILES/index.md"
+			],
+			"currentNode": "FILES/index.md"
+		},
+		{
+			"thread": [
+				"FILES/Log.md"
+			],
+			"currentNode": "FILES/Log.md"
+		}
+	],
+	"threadIndex": 30,
+	"previousSession": "",
+	"map": {
+		"nodes": {
+			"FILES/Log": {
+				"node": "FILES/Log",
+				"isRoot": true,
+				"strength": 3,
+				"dateCreated": "2025-05-21T15:41:27.528Z"
+			},
+			"FILES/Log.md": {
+				"node": "FILES/Log.md",
+				"isRoot": true,
+				"strength": 3,
+				"dateCreated": "2025-05-21T15:52:46.707Z"
+			},
+			"FILES/index.md": {
+				"node": "FILES/index.md",
+				"isRoot": true,
+				"strength": 3,
+				"dateCreated": "2025-05-21T15:53:22.647Z"
+			},
+			"FILES/Colophon.md": {
+				"node": "FILES/Colophon.md",
+				"isRoot": true,
+				"strength": 3,
+				"dateCreated": "2025-05-21T16:33:07.159Z"
+			}
+		},
+		"connections": []
+	},
+	"version": 1
+}

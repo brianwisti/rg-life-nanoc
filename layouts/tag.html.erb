@@ -1,0 +1,8 @@
+<p>Showing pages with tag <%= @item[:tag] %>.</p>
+
+<section>
+  <% items_with_tag(@item[:tag]).each do |item| %>
+    <%= render '/_summary.*', item: item %>
+  <% end %>
+</section>
+

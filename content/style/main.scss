@@ -1,0 +1,71 @@
+// styles for life
+@import "https://unpkg.com/open-props";
+@import "https://unpkg.com/open-props/normalize.min.css";
+
+main {
+  padding: var(--size-3);
+}
+
+:where(p) {
+  max-inline-size: none;
+  padding: var(--size-2);
+}
+
+:where(footer) {
+  padding: var(--size-2);
+  font-size: var(--font-size-0);
+  color: var(--text-2);
+
+  :where(p) {
+    font-size: var(--font-size-0);
+  }
+
+  :where(dl) {
+    font-size: var(--font-size-0);
+    display: grid;
+    grid-template-columns: auto auto;
+
+    :where(dt) {
+      margin: 0;
+    }
+  }
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+
+
+  a {
+    display: inline-block;
+    padding: var(--size-2);
+
+    &:first-child {
+      flex-grow: 1;
+    }
+  }
+}
+
+:where(header) {
+  font-weight: bold;
+}
+
+:where(section) {
+  padding-inline: var(--size-3);
+  margin: var(--size-2);
+
+  :where(.summary) {
+    border: thin solid;
+
+    :where(header) {
+      :where(a) {
+        display: block;
+      }
+    }
+  }
+}
+
+a[rel=tag] {
+  padding-inline: var(--size-1);
+  outline: thin solid;
+}

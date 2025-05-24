@@ -1,0 +1,150 @@
+#!/usr/bin/env ruby
+
+require 'pathname'
+
+preprocess do
+  tag_pattern = %r{
+    \# \b (
+      [a-z] [a-z0-9-]*?
+      (?: / [a-z][a-z0-9-]*?) *? # optional nested tags
+    ) \b
+  }x
+
+  link_pattern = %r{
+    \[ \[
+      ( [^#\[\]<>{}|_]*? )
+      (?:
+        \|
+        ([^#\[\]<>{}|_]+?)
+      )?
+    \] \]
+  }x
+
+  separator = "-"
+
+  tags = []
+
+  @items.filter{ |i| i.identifier.ext == "md" }.each do |item|
+    page_tags = []
+    content = item.raw_content
+    identifier = item.identifier.without_ext.sub %r{^ /life }x, ''
+    in_file = Pathname.new item[:content_filename]
+    stem = in_file.basename(".md").to_s
+    title = (content.sub!(%r{ ^ \# \s (.+?) $ }x, "") && $1) || stem
+
+    content = content.gsub tag_pattern do |match|
+      tag = $1
+      page_tags << tag
+      link_for_tag "#{tag}", "/tags/"
+    end.gsub link_pattern do |match|
+      link_to_note $1
+    end
+
+
+    # slugify, borrowed from ActiveSupport::Inflector.parameterize
+    # https://api.rubyonrails.org/classes/ActiveSupport/Inflector.html#method-i-parameterize
+    permalink = identifier
+      .gsub(
+        %r{ [^a-z0-9_/\-] }ix, separator
+      )
+      .gsub(
+        %r{ #{separator}{2,} }x, separator
+      )
+      .gsub(
+        %r{^#{separator} | #{separator}$}x, ''
+      )
+      .gsub(
+        %r{ index $ }x, ''
+      )
+      .downcase
+
+    item[:created_at] = in_file.birthtime
+    item[:updated_at] = in_file.mtime
+    item[:id] = identifier[1..-1]
+    item[:kind] = "article"
+    item[:out_file] = if permalink == "/"
+                        "/index.html"
+                      else
+                        permalink + '/index.html'
+                      end
+    item[:permalink] = permalink
+    item[:tags] = page_tags
+    item[:title] = title
+    item.raw_content = content
+    tags << page_tags
+  end
+
+  tags = tags.flatten.uniq
+  tags.each do |tag|
+    content = tag
+    attributes = { tag: tag, title: tag }
+    identifier = "/tags/#{tag}/index.html"
+
+    next if @items[identifier]
+
+    @items.create content, attributes, identifier
+  end
+end
+
+compile '/tags/**/index.html' do
+  layout '/tag.*'
+  layout '/default.*'
+
+  write item.identifier.to_s
+end
+
+compile '/life/Follow.md' do
+  filter :redcarpet,
+    options: {
+      autolink: true,
+    },
+    renderer_options: {
+      filter_html: false,
+    }
+
+  layout '/follow.*'
+  layout '/default.*'
+
+  write item[:out_file]
+end
+
+compile '/life/**/index.md' do
+  filter :redcarpet,
+    options: {
+      autolink: true,
+    },
+    renderer_options: {
+      filter_html: false,
+    }
+  layout '/index.*'
+
+  write item[:out_file]
+end
+
+compile '/life/**/*.md' do
+  filter :redcarpet,
+    options: {
+      autolink: true,
+    },
+    renderer_options: {
+      filter_html: false,
+    }
+  layout '/default.*'
+
+  write item[:out_file]
+end
+
+compile '/feed.*' do
+  filter :erb
+  write '/feed.xml'
+end
+
+compile '/style/main.scss' do
+  filter :dart_sass, syntax: 'scss'
+
+  write item.identifier.without_ext + ".css"
+end
+
+passthrough '/**/*'
+
+layout '/**/*', :erb

@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <%= render '/_head.*' %>
+  <body>
+    <%= render '/_site_header.*' %>
+    <main>
+      <header>
+        <h1><%= @item[:title] %></h1>
+      </header>
+      <%= yield %>
+      <section>
+        <% children_of(@item).sort_by { |i| item[:mtime] }.reverse.each do |article| %>
+          <%= render '/_summary.*', item: article %>
+        <% end %>
+      </section>
+    </main>
+    <%= render '/_site_footer.*' %>
+  </body>
+</html>

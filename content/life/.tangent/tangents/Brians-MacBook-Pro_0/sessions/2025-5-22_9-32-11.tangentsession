@@ -1,0 +1,36 @@
+{
+	"threadHistory": [
+		{
+			"thread": [
+				"FILES/Log/2025-05-21 Wed 1107.md"
+			],
+			"currentNode": "FILES/Log/2025-05-21 Wed 1107.md"
+		},
+		{
+			"thread": [
+				"FILES/Log/2025-05-22 Thu 1007.md"
+			],
+			"currentNode": "FILES/Log/2025-05-22 Thu 1007.md"
+		},
+		{
+			"thread": [
+				"FILES/Log.md"
+			],
+			"currentNode": "FILES/Log.md"
+		}
+	],
+	"threadIndex": 2,
+	"previousSession": "FILES/.tangent/tangents/Brians-MacBook-Pro_0/sessions/2025-5-21_8-40-46.tangentsession",
+	"map": {
+		"nodes": {
+			"FILES/Log.md": {
+				"node": "FILES/Log.md",
+				"isRoot": true,
+				"strength": 2,
+				"dateCreated": "2025-05-22T19:50:57.187Z"
+			}
+		},
+		"connections": []
+	},
+	"version": 1
+}
