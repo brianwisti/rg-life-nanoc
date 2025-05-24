@@ -9,3 +9,7 @@ https://nanoc.app
 Leaning on OpenProps once again. I know it's basically Tailwind for people who like CSS properties. But I *really* like CSS properties.
 
 https://open-props.style
+
+## Code pls
+
+https://codeberg.org/randomgeek/rg-life

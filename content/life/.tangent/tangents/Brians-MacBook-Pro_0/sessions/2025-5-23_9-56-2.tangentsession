@@ -164,9 +164,15 @@
 				"FILES/log/2025-05-23 Fri 1838.md"
 			],
 			"currentNode": "FILES/log/2025-05-23 Fri 1838.md"
+		},
+		{
+			"thread": [
+				"FILES/Colophon.md"
+			],
+			"currentNode": "FILES/Colophon.md"
 		}
 	],
-	"threadIndex": 28,
+	"threadIndex": 29,
 	"previousSession": "FILES/.tangent/tangents/Brians-MacBook-Pro_0/sessions/2025-5-22_9-32-11.tangentsession",
 	"map": {
 		"nodes": {
