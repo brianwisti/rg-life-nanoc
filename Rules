@@ -58,10 +58,17 @@ preprocess do
       )
       .downcase
 
-    item[:created_at] = in_file.birthtime
     item[:updated_at] = in_file.mtime
     item[:id] = identifier[1..-1]
-    item[:kind] = "article"
+    puts item[:id]
+
+    if item[:id] =~ %r{^ Log/(\d{4}-\d{2}-\d{2}) \s \w{3} \s (\d\d)(\d\d)}x
+      timestamp = "#{$1} #{$2}:#{$3} -0700"
+      puts timestamp
+      item[:created_at] = timestamp
+      item[:kind] = "article"
+    end
+
     item[:out_file] = if permalink == "/"
                         "/index.html"
                       else
